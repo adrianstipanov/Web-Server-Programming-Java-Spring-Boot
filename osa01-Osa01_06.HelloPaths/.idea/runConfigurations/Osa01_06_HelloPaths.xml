@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa01_06.HelloPaths" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="hellopaths.HelloPathsApplication" />
+    <module name="Osa01_06.HelloPaths" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

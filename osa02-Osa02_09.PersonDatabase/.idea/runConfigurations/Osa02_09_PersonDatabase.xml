@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_09.PersonDatabase" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="persondatabase.PersonDatabaseApplication" />
+    <module name="Osa02_09.PersonDatabase" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

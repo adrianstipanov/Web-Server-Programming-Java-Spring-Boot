@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_04.HelloList" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="hellolist.HelloListApplication" />
+    <module name="Osa02_04.HelloList" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

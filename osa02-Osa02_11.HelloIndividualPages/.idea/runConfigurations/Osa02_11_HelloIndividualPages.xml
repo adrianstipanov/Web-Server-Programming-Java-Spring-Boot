@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_11.HelloIndividualPages" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="helloindividualpages.HelloIndividualPagesApplication" />
+    <module name="Osa02_11.HelloIndividualPages" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

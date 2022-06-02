@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa03_07.ExamsAndQuestions" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="examsandquestions.ExamsAndQuestionsApplication" />
+    <module name="Osa03_07.ExamsAndQuestions" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

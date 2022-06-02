@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_06.HelloForm" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="helloform.HelloFormApplication" />
+    <module name="Osa02_06.HelloForm" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

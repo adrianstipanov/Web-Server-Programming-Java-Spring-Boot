@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa01_09.HelloRequestParams" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="hellorequestparams.HelloRequestParamsApplication" />
+    <module name="Osa01_09.HelloRequestParams" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

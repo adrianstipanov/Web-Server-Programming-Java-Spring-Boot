@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_12.TodoApplication" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="todoapplication.TodoApplication" />
+    <module name="Osa02_12.TodoApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

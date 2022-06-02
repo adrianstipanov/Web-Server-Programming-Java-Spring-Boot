@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa03_02.SimpleBanking" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="simplebanking.SimpleBankingApplication" />
+    <module name="Osa03_02.SimpleBanking" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

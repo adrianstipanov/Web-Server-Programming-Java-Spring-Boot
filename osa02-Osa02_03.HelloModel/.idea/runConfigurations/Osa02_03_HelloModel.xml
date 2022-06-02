@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_03.HelloModel" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="hellomodel.HelloModelApplication" />
+    <module name="Osa02_03.HelloModel" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

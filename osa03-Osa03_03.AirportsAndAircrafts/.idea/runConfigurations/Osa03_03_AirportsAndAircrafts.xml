@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa03_03.AirportsAndAircrafts" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="airports.AirportsAndAircraftsApplication" />
+    <module name="Osa03_03.AirportsAndAircrafts" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

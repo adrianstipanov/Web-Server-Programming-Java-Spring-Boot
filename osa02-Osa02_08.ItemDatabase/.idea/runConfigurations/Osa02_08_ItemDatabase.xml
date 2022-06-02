@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa02_08.ItemDatabase" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="itemdatabase.ItemDatabaseApplication" />
+    <module name="Osa02_08.ItemDatabase" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

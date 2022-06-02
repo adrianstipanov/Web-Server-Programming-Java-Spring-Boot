@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa03_04.BankTransfer" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="banktransfer.BankTransferApplication" />
+    <module name="Osa03_04.BankTransfer" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

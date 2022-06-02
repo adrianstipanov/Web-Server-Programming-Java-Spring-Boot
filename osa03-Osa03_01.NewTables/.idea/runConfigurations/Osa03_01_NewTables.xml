@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa03_01.NewTables" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="newtables.NewTablesApplication" />
+    <module name="Osa03_01.NewTables" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
