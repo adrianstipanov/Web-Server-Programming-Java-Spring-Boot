@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Osa04_03.Jokes" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="jokes.RefactoringApplication" />
+    <module name="Osa04_03.Jokes" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
