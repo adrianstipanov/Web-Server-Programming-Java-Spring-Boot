@@ -15,6 +15,13 @@ public class AirportService {
     }
 
     public void create(String identifier, String name) {
+        List<Airport> airports = list();
+        for (Airport a: airports){
+            if (a.getIdentifier().equals(identifier) || a.getName().equals(name)){
+                return;
+            }
+        }
+
         Airport a = new Airport();
         a.setIdentifier(identifier);
         a.setName(name);
