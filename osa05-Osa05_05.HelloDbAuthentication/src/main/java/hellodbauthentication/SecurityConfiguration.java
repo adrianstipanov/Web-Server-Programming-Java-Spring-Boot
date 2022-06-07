@@ -21,14 +21,14 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // poistetaan csrf-tarkistus käytöstä h2-konsolin vuoksi
+        // disable csrf checking for h2 console
         http.csrf().disable();
-        // sallitaan framejen käyttö
+        // the use of frames is allowed
         http.headers().frameOptions().sameOrigin();
 
         http.authorizeRequests()
-                .antMatchers("/accounts","/accounts/**").permitAll()
-                .antMatchers("/h2-console","/h2-console/**").permitAll()
+                .antMatchers("/accounts", "/accounts/**").permitAll()
+                .antMatchers("/h2-console", "/h2-console/**").permitAll()
                 .anyRequest().authenticated().and()
                 .formLogin().permitAll().and()
                 .logout().permitAll();
