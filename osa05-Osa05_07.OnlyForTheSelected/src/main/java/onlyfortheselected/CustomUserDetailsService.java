@@ -1,6 +1,9 @@
 package onlyfortheselected;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,6 +24,12 @@ public class CustomUserDetailsService implements UserDetailsService {
             throw new UsernameNotFoundException("No such user: " + username);
         }
 
+        List<SimpleGrantedAuthority> simpleGrantedAuthorities = new ArrayList<>();
+        for (String authority: account.getAuthorities()){
+            simpleGrantedAuthorities.add(new SimpleGrantedAuthority(authority));
+        }
+
+
         return new org.springframework.security.core.userdetails.User(
         account.getUsername(),
         account.getPassword(),
@@ -28,6 +37,6 @@ public class CustomUserDetailsService implements UserDetailsService {
         true,
         true,
         true,
-        Arrays.asList(new SimpleGrantedAuthority("USER")));
+        simpleGrantedAuthorities);
     }
 }

@@ -20,9 +20,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        
+
         http.authorizeRequests()
-        .anyRequest().authenticated();
+                .antMatchers("/happypath").permitAll()
+                .antMatchers("/secretpath").hasAnyAuthority("ADMIN", "USER")
+                .antMatchers("/adminpath").hasAnyAuthority("ADMIN")
+                .anyRequest().authenticated();
         http.formLogin()
                 .permitAll();
     }
